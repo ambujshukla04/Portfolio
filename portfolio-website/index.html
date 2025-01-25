@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambuj Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 4, 76);
+            color: white;
+            font-family: "Poppins", serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 10vh;
+            background-color: rgb(76, 4, 119);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a{
+            color: rgb(251, 251, 253);
+        }
+
+        nav ul li a:hover{
+            color: rgb(231, 95, 117);
+            font-size: 1.03rem;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 0px 0px 0px;
+            height: 80vh;
+        }
+
+        
+
+        .first > div{
+            width: 40%;
+        }
+        .leftsection{
+            font-size: 2.5rem;
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+
+        .leftsection .btn{
+            padding: 12px;
+            background: #0b0f81;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img{
+            margin: 0px 10px 10px 10px;
+        }
+
+        .p{
+            color: rgb(1, 253, 114);
+        }
+
+        #element{
+            color: rgb(1, 253, 114);
+        }
+
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 73vh;
+
+        }
+
+        main hr{
+            border: 0;
+            background: #ababef;
+            height: 1.2px;
+            margin: 40px 84px 0px 0px;
+        }
+
+        .secondsection h1{
+            font-size: 2rem;
+            margin-top: 20px;
+            
+        }
+
+        .secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 84px -10px -10px;
+            display: flex;
+        }
+
+        .box .c1 h1{
+            font-size: 29px;
+            text-align: center;
+            margin-top: 35px;
+            font-family: cursive;
+        }
+
+        .box .c2 img{
+            height: 400px;
+            width: 250px;
+            padding: 35px;
+            border-radius: 30vh;
+        }
+
+        .thrid{
+            height: 80vh;
+            width: 75vw;
+            margin: auto;
+        }
+
+        .i h1{
+            font-size: 2.5rem;
+            background: repeating-radial-gradient(rgb(252, 2, 2), transparent 100px);
+        }
+
+        .line h1{
+            font-size: 30px;
+            margin: 20px 70px 0px 0px;
+            font-family: sans-serif;
+        }
+
+        .line h1 span{
+            color: rgb(234, 67, 67)
+        }
+
+        .line2 h1{
+            font-size: 29px;
+            text-align: center;
+            margin-top: 35px;
+            font-family: cursive;
+        }
+
+        .project h1{
+            font-size: 2.5rem;
+            font-family: sans-serif;
+            margin-top: 20px;
+        }
+
+        .forth{
+            height: 185vh;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .project1 h1{
+            color: rgb(202 255 123);
+            margin: 15px -2px 0px 0px;
+        }
+
+        .div{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 84px -10px -10px;
+            display: flex;
+        }
+
+        .project1 h2{
+            font-size: 30px;
+            font-family: emoj;
+            margin: 30px 0px 0px 0px;
+        }
+
+        .project1 img{
+            height: 500px;
+            width: 1000px;
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+        .project2 h1{
+            color: rgb(202 255 123);
+            margin-left: -66vw
+            
+            
+        }
+
+        .pic1 img{
+            height: 300px;
+            width: 500px;
+            margin-left: 80wv;
+            padding: 25px;
+        }
+
+        .project2{
+            width: 80vw;
+            margin-top: 100vh;
+        }
+
+        .pic{
+            margin-left: -66vw;
+            display: flex;
+        }
+
+        .pic2 img{
+            height: 300px;
+            width: 500px;
+            margin-left: 100wv;
+            padding: 25px;
+        }
+
+        .pic h2{
+            font-size: 30px;
+            font-family: emoj;
+            margin: 370px 0px 0px -1100px;
+        }
+
+        .fifth{
+            height: 100vh;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .skill{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 84px -10px -10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .skill1{
+            display: flex;
+        }
+
+        .fifth h1{
+            margin-top: 25px;
+            font-size: 2.5rem;
+            
+        }
+
+        .skill1 h1{
+            font-size: 30px;
+            margin: 30px;
+            color: rgb(232, 9, 139);
+        }
+
+        .m1 img{
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 40px;
+            background: white;
+        }
+
+        .m2 img{
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 80px;
+            background: white;
+        }
+
+        .m3 img{
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 80px;
+            background: white;
+        }
+
+        .m4 img{
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 80px;
+            background: white;
+        }
+
+        .m5 img{
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 80px;
+            background: white;
+        }
+
+        .skill2 h1{
+            font-size: 30px;
+            margin-top: 60px;
+            margin-left: 30px;
+            color: rgb(232, 9, 139);
+        }
+
+        .skill2{
+            display: flex;
+        }
+
+        .m6 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 60px;
+            background: white;
+        }
+
+        .m7 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 80px;
+            background: white;
+        }
+
+        .skill3 h1{
+            font-size: 30px;
+            margin-top: 60px;
+            margin-left: 30px;
+            color: rgb(232, 9, 139);
+        }
+        .skill3{
+            display: flex;
+        }
+
+        .m8 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 95px;
+            background: white;
+        }
+
+        .m9 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 50px;
+            background: white;
+        }
+
+        .m10 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 50px;
+            background: white;
+        }
+
+        .skill4 h1{
+            font-size: 30px;
+            margin-top: 60px;
+            margin-left: 30px;
+            color: rgb(232, 9, 139);
+        }
+
+        .skill4{
+            display: flex;
+        }
+
+        .m11 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 35px;
+            background: white;
+        }
+
+        .m12 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 60px;
+            background: white;
+        }
+
+        .m13 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 60px;
+            background: white;
+        }
+
+        .skill5{
+            display: flex;
+        }
+
+        .skill5 h1{
+            font-size: 30px;
+            margin-top: 60px;
+            margin-left: 30px;
+            color: rgb(232, 9, 139);
+        }
+
+        .m14 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 40px;
+            background: white;
+        }
+
+        .m15 img{
+            height: 100px;
+            margin-top: 35px;
+            margin-left: 60px;
+            background: white;
+        }
+
+        .m16 img{
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 80px;
+            background: white;
+        }
+
+        .sixth{
+            height: 95vh;
+            width: 80vw;
+            margin: auto;
+        }
+        .seventh{
+            height: 75vh;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .phone{
+            background: white;
+            width: 80vw;
+            height: 2px;
+        }
+
+        .seventh h1{ 
+            font-size: 2.5rem;
+            margin: 20px 0px;
+            
+        }
+
+        .phone{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .phone h1{
+            margin-top: 60px;
+        }
+
+        .phone img{
+            height: 90px;
+            width: 90px;
+            margin: 50px;
+        }
+
+        .email img{
+            height: 90px;
+            width: 90px;
+            margin: 200px 50px;
+        }
+
+        .pd{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .email h1{
+            margin: 210px 0px;
+        }
+
+        .email{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .social{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .linked img{
+            height: 100px;
+            width: 100px;
+            margin: -100px -100px 60px 70px;
+        }
+
+        .github img{
+            height: 100px;
+            width: 100px;
+            margin: -100px 100px 60px 200px;
+            background-color: white;
+        }
+
+        .leetcode img{
+            height: 100px;
+            width: 100px;
+            margin: -100px 50px 60px 0px;
+            background-color: white;
+        }
+
+        .insta img{
+            height: 100px;
+            width: 100px;
+            margin: -100px 50px 18px 50px;
+            background-color: white;
+        }
+
+        .name{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 84px -10px -10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sixth h1{
+            font-size: 2.5rem;
+            margin: 20px 0px -30px;
+        }
+
+        .sixth{
+            height: 90vh;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .hack img{
+            height: 400px;
+            width: 700px;
+        }
+
+        .name h2{
+            font-family: sans-serif;
+            font-size: 30px;
+            margin: 30px 0px;
+        }
+
+        .iid h1{
+            font-size: 30px;
+        }
+
+        .footer{
+            display: flex;
+            background-color: #0e0e1a;
+            justify-content: space-evenly;
+        }
+
+        .footer{
+            height: 233px;
+            margin-bottom: 40px;
+            border: 2px solid white;
+        }
+
+        .f1 h3{
+            margin-left: 80px;
+            margin-top: 30px;
+        }
+
+        .f2{
+            margin: 80px 200px;
+        }
+
+        .f3{
+            margin: 80px 170px;
+        }
+
+        .f4{
+            margin: 80px 170px;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 123px;
+        }
+
+        .tc{
+            text-align: center;
+            margin-bottom: 30px;
+            color: gray;
+            padding: 1px 0px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ambuj's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">Hi, My name is <span class="p">"Ambuj Shukla"</span>
+                <div>
+                    and I am a Computer Science Student at PSIT Kanpur.
+                </div> 
+                The coding language known by me are : <span id="element"></span>
+                <div class="buttons">
+                    <a href="Ambuj_Shukla_Resume.pdf"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/ambujshukla04"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pngtree-boy-working-on-computer-clipart-vector-png-image_6998937.png" alt="me23ew">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>About Me</h1>
+            <div class="box">
+                <div class="c1">
+                    <h1>I am a passionate and driven Computer Science student at PSIT Kanpur, with a strong foundation in programming languages including C, C++, Python, HTML, CSS, and JavaScript. I have a keen interest in software development, web development, and problem-solving. My academic projects, such as creating interactive web applications and developing algorithms, have honed my skills in both front-end and back-end development. I am always eager to learn new technologies and improve my technical expertise to contribute effectively to innovative and dynamic environments.</h1>
+                </div>
+                <div class="c2">
+                    <img src="WhatsApp Image 2025-01-24 at 09.00.01_58b04787.jpg" alt="me">
+                </div>
+            </div>
+        </section>
+
+        <section class="thrid">
+            <div class="boxes">
+                <div class="i"><h1>Skills :</h1></div>
+                <div class="line">
+                    <h1><span>Language : </span>Python,  JavaScript,  C/C++,  HTML/CSS</h1>
+                    <h1><span>Databases : </span>MySQL,  MongoDB</h1>
+                    <h1><span>Libraries : </span>NumPy,  Pandas,  Matplotlib</h1>
+                    <h1><span>Frameworks : </span>ReactJS,  NodeJS,  DJango</h1>
+                    <h1><span>Tools and Technologies : </span>Git,  PowerBI</h1>
+                </div>
+                <div class="line2">
+                    <h1>Skilled in developing efficient algorithms, debugging, and creating user-centric applications. Passionate about building scalable and reliable software solutions while continuously learning new technologies to meet industry demands.</h1>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="forth"> 
+            <div class="project">
+                <h1>Projects :</h1>
+            </div>
+            <div class="div">
+                <div class="project1">
+                    <a href="https://github.com/ambujshukla04/MIRANDA?tab=readme-ov-file#miranda"><h1 >MIRANDA</h1></a>
+                    <a href="https://github.com/ambujshukla04/MIRANDA?tab=readme-ov-file#miranda"><img src="Screenshot (4).png" alt="me"></a>
+
+                    <h2><ol>I'm excited to share my latest project! I've been working on creating a cool scrolling animation using CSS keyframes. It features a smooth horizontal scrolling effect, making it perfect for things like banners or slideshows. I used tools like Remix icons, GSAP (GreenSock Animation Platform), and Locomotive Scroll to make it dynamic and interactive.</ol> </h2>
+                </div>
+                <div class="project2">
+                    <a href="https://github.com/ambujshukla04/E-Commerce-platform?tab=readme-ov-file#e-commerce-platform"><h1 >E-Commerce Platform</h1></a>
+                    <div class="pic">
+                        <div class="pic1"><a href="https://github.com/ambujshukla04/E-Commerce-platform?tab=readme-ov-file#e-commerce-platform"><img src="Screenshot (5).png" alt="me"></a></div>
+                        <div class="pic2"><a href="https://github.com/ambujshukla04/E-Commerce-platform?tab=readme-ov-file#e-commerce-platform"><img src="Screenshot (6).png" alt="me"></a></div>
+                        <h2>This web application is designed to provide a seamless online shopping experience to users while
+                            empowering administrators with efficient management tools. The website is built using Java, JSP,
+                            Servlet, Html and JDBC technologies, ensuring a robust and scalable foundation for your e-commerce
+                            venture.</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fifth">
+            <h1>Skills :</h1>
+            <div class="skill">
+                <div class="skill1">
+                    <h1>Language : </h1>
+                    <div class="m1"><img src="3d-python-programming-language-logo-free-png.webp" alt="me"></div>
+                    <div class="m2"><img src="logo-html-5-css-javascript-source-code-for-the-taking-23.png" alt=""></div>
+                    <div class="m3"><img src="logo-html-5-css-javascript-source-code-for-the-taking-23 (2).png" alt=""></div>
+                    <div class="m4"><img src="c.png" alt=""></div>
+                    <div class="m5"><img src="th.jpeg" alt=""></div>
+                    <div class="m16"><img src="logo_html.png" alt=""></div>
+                </div>
+                <div class="skill2">
+                    <h1>Databases :</h1>
+                    <div class="m6"><img src="free-mysql-9294870-7578013.webp" alt=""></div>
+                    <div class="m7"><img src="th (1).jpeg" alt=""></div>
+                </div>
+                <div class="skill3">
+                    <h1>Libraries : </h1>
+                    <div class="m8"><img src="th (2).jpeg" alt=""></div>
+                    <div class="m9"><img src="th (3).jpeg" alt=""></div>
+                    <div class="m10"><img src="th (4).jpeg" alt=""></div>
+                </div>
+                <div class="skill4">
+                    <h1>Frameworks : </h1>
+                    <div class="m11"><img src="th (5).jpeg" alt=""></div>
+                    <div class="m12"><img src="th (6).jpeg" alt=""></div>
+                    <div class="m13"><img src="1758903.png" alt=""></div>
+                </div>
+                <div class="skill5">
+                    <h1>Tools and Technologies : </h1>
+                    <div class="m14"><img src="35-353809_git-logo-svg-clipart.png" alt=""></div>
+                    <div class="m15"><img src="icons8-power-bi-48.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="sixth">
+            <h1>Certificate</h1>
+            <div class="name">
+                <a href="https://www.hackerrank.com/certificates/c5c8d4740fac"><h2>HackerRank Certificate </h2></a>
+                <div class="hack"><a href="https://www.hackerrank.com/certificates/c5c8d4740fac"><img src="Screenshot (7).png" alt=""></a></div>
+                <div class="iid"><h1>HackerRank certificate in problem solving😁😁</h1></div>
+            </div>
+        </section>
+        <hr>
+        <section class="seventh">
+            <h1>Contact To Me</h1>
+            <div class="pd">
+                <div class="phone">
+                    <img src="iphone-telephone-call-logo-email-awesome-vector.jpg" alt="">
+                    <h1>+91-7985825176</h1>
+                </div>
+                <div class="email">
+                    <img src="mail-vector-icon-isolated-on-260nw-1195193863.webp" alt="">
+                    <h1>Shuklaambuj43@gmail.com</h1>
+                </div>
+            </div>
+            <div class="social">
+                <div class="linked"><a href="https://www.linkedin.com/in/ambujshukla04/"><img src="th (8).jpeg" alt=""></div></a>
+                <div class="github"><a href="https://github.com/ambujshukla04"><img src="GitHub-Logo.png" alt=""></a></div>
+                <div class="leetcode"><a href="https://leetcode.com/u/ambujshukla/"><img src="th (9).jpeg" alt=""></a></div>
+                <div class="insta"><a href="https://www.instagram.com/ambujshukla04/"><img src="th (7).jpeg" alt=""></a></div>
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="eighth">
+            <div class="footer">
+                <div class="f1"><h3>Ambuj's Developer Portfolio</h3></div>
+                <div class="f2">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="f3">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="f4">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tc">
+                Copyright &#169; Ambujportfolio.com | All rights reserved
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+    var typed = new Typed('#element', {
+        strings: ['Python', 'Java Script', 'C++','C'],
+        typeSpeed: 50,
+    });
+    </script>
+</body>
+
+</html>
